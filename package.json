@@ -1,0 +1,14 @@
+{
+  "name": "video-streaming-server",
+  "version": "0.1.0",
+  "author": {
+    "name": "Mathias Schilling",
+    "email": "m@matchilling.com",
+    "url": "https://www.matchilling.com"
+  },
+  "license": "GPL-3.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/server/index.js"
+  }
+}
