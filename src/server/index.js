@@ -70,6 +70,7 @@ const server = http.createServer((request, response) => {
       response.end('404 Not found')
     }
   }
-}).listen(process.env.PORT || 8000)
+}).listen(process.env.PORT)
 
-console.log('This process is your pid ' + process.pid);
+console.log(`Server is running on port "${process.env.PORT}".`);
+console.log(`This process is your pid "${process.pid}".`);
